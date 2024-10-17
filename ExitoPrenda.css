@@ -1,0 +1,77 @@
+
+@font-face{
+    font-family: Nestor;
+    src: url("./Fonts/Nestor.otf");
+}
+@font-face{
+    font-family: Rocket;
+    src: url("./Fonts/rocketpophalf.otf");
+}
+
+@font-face{
+    font-family: Rock;
+    src: url("./Fonts/rock.otf");
+}
+
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+body {
+    font-family: Rocket;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background: url(Imagenes/Welcum.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+
+h1 {
+    font-size: 3em;
+    margin-top: 100px;
+    text-shadow: 2px 2px 4px rgb(0, 17, 255);
+}
+
+p {
+    font-size: 1.5em;
+    margin: 20px 0;
+    text-shadow: 1px 1px 3px rgba(173, 0, 150, 0.788);
+}
+
+.button {
+    font-family: Nestor;
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 1.0em;
+    color: #e5e4e2;
+    text-shadow: 1px 1px 3px rgba(173, 0, 150, 0.788);
+    background-color: #0077B6; /* Color del boton */
+    text-decoration: none;
+    border-radius: 30px; /* Bordes redondeados */
+    border: 2px solid #ffffff; /* Borde*/
+    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.685);
+    transition: background-color 0.3s, transform 0.3s; /* Transiciones suaves */
+}
+
+.button:hover {
+    background-color: #383838; /* Un tono más oscuro de naranja */
+    transform: translateY(-3px); /* Efecto de elevación */
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo negro semi-transparente */
+    padding: 40px;
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 80%;
+    max-width: 600px;
+}
+
+.awoh{
+    font-size: 50px;
+}

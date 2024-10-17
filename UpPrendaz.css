@@ -1,0 +1,97 @@
+
+
+@font-face{
+    font-family: Nestor;
+    src: url("./Fonts/Nestor.otf");
+}
+@font-face{
+    font-family: Rocket;
+    src: url("./Fonts/rocketpophalf.otf");
+}
+
+@font-face{
+    font-family: Rock;
+    src: url("./Fonts/rock.otf");
+}
+
+body {
+    font-size: 20px;
+    font-family: Rocket;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #292929e1;
+    color: rgb(206, 206, 206);
+    text-shadow: 2px 2px 4px rgba(88, 168, 243, 0.925);
+    background: url(Imagenes/SubiPrenda.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+form {
+    background: #272727e8;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 450px; /* Ajusta el ancho según sea necesario */
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="file"],
+textarea,
+select {
+    width: 93%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: Street;
+}
+
+button {
+    background-color: #0077B6;
+    color: rgb(0, 0, 0);
+    font-family: Nestor;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 98%;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #004368;
+}
+
+.alert {
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.titlee{ 
+    font-family: Rocket;
+    color: rgb(24, 24, 24);
+    text-shadow: 2px 2px 4px rgba(88, 168, 243, 0.925);
+}
+
+.tallas{
+    font-family: Rocket;
+    color: rgb(24, 24, 24);
+    text-shadow: 2px 2px 4px rgba(88, 168, 243, 0.925);
+}
+

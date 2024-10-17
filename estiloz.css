@@ -1,0 +1,95 @@
+@font-face{
+    font-family: Nestor;
+    src: url("./Fonts/Nestor.otf");
+}
+@font-face{
+    font-family: Rocket;
+    src: url("./Fonts/rocketpophalf.otf");
+}
+
+@font-face{
+    font-family: Rock;
+    src: url("./Fonts/rock.otf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.body {
+    font-family: Rocket;
+    background-color: rgba(255, 255, 255, 0.89);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background:
+        url(Imagenes/FondoConExt.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+
+.form-content {
+    background: linear-gradient(
+        50deg,
+        rgba(231, 231, 231, 0.562) 30%,
+        rgba(97, 97, 97, 0.233)
+        ),
+        url(Imagenes/FondoCOntac.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 50px;
+        width: 900px;
+        border-radius: 25px;
+        color: rgba(224, 224, 224, 0.938);
+        text-shadow: 2px 2px 4px rgba(88, 168, 243, 0.925);
+}
+
+.form-content h2 {
+    color: rgba(224, 224, 224, 0.938);
+    text-shadow: 2px 2px 4px rgba(88, 168, 243, 0.925);
+    font-family: Rocket;
+    font-size: 60px;
+    margin-bottom: 25px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+label {
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+input, textarea {
+    padding: 17px 14px;
+    background-color: rgba(0, 0, 0, 0.753);
+    border: 0;
+    font-size: 15px;
+    color: azure;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+:focus {
+    outline: 1px solid rgb(255, 255, 255);
+}
+
+.vnt {
+    background-color: rgb(51, 51, 51);
+    width: 150px;
+    align-self: flex-end;
+    cursor: pointer;
+    font-family: Nestor;
+}
+
+.vnt hover {
+    background-color: rgba(0, 0, 0, 0.747);
+}

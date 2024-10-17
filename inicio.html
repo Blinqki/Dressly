@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8"> <!-- Meta etiqueta para especificar la codificación de caracteres UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- Meta etiqueta para hacer la página responsiva -->
+    <title>Iniciar Sesión</title> <!-- Título de la página -->
+    <link rel="stylesheet" href="sornero.css"> <!-- Enlace a la hoja de estilos CSS externa -->
+</head>
+<body>
+    <div class="login-container">
+        <h2 class="loggin">Iniciar Sesión</h2> <!-- Título del formulario de inicio de sesión -->
+        <form action="login.php" method="POST"> <!-- Formulario que envía los datos a login.php utilizando el método POST -->
+            <div class="form-group">
+                <label for="username">Nombre de usuario:</label> <!-- Etiqueta para el campo de nombre de usuario -->
+                <input type="text" id="username" name="username" required> <!-- Campo de entrada para el nombre de usuario, requerido -->
+            </div>
+            <div class="form-group">
+                <label for="password">Contraseña:</label> <!-- Etiqueta para el campo de contraseña -->
+                <input type="password" id="password" name="password" required> <!-- Campo de entrada para la contraseña, requerido -->
+            </div>
+            <button type="submit">Iniciar Sesión</button> <!-- Botón para enviar el formulario -->
+        </form>
+        <p>¿No tienes cuenta? <a href="registro.html">Regístrate aquí</a></p> <!-- Enlace para usuarios que aún no tienen cuenta -->
+    </div>
+</body>
+</html>

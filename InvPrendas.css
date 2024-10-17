@@ -1,0 +1,132 @@
+@font-face{
+    font-family: Nestor;
+    src: url("./Fonts/Nestor.otf");
+}
+@font-face{
+    font-family: Rocket;
+    src: url("./Fonts/rocketpophalf.otf");
+}
+
+@font-face{
+    font-family: Rock;
+    src: url("./Fonts/rock.otf");
+}
+
+body {
+    font-family: Nestor;
+    color: rgba(0, 0, 0, 0.742);
+    text-shadow: 2px 2px 4px rgba(55, 118, 214, 0.925);
+    margin: 0;
+    padding: 0;
+    background: url(Imagenes/inventario.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+ 
+.tiitulo {
+    font-family: Rocket;
+    color: rgb(24, 24, 24);
+    text-shadow: 2px 2px 4px rgba(88, 168, 243, 0.925);
+}
+
+.tituloo {
+    font-size: 50px;
+    margin-top: 20px;
+    font-family: Rock;
+    color: rgb(24, 24, 24);
+    text-shadow: 2px 2px 4px rgba(88, 168, 243, 0.925);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    overflow-y: auto;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Ahora caben 4 prendas por fila */
+    gap: 20px;
+}
+
+.prenda {
+    position: relative;
+    padding: 10px;
+    border: 1px solid #0077B6;
+    background-color: #474747dc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.prenda img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.prenda button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: #0077B6;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 5px 10px;
+    font-size: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: Nestor;
+}
+
+.prenda button:hover {
+    background-color: #2600ff;
+}
+
+
+body {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+body::-webkit-scrollbar {
+    display: none;  /* Chrome, Safari and Opera */
+}
+
+.top-left {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.top-left a button {
+    background-color: #224fa1;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    font-size: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: Rocket;
+}
+
+.top-left a button:hover {
+    background-color: #724bb1;
+}

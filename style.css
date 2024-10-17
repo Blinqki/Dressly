@@ -1,0 +1,127 @@
+@font-face{
+    font-family: Nestor;
+    src: url("./Fonts/Nestor.otf");
+}
+@font-face{
+    font-family: Rocket;
+    src: url("./Fonts/rocketpophalf.otf");
+}
+
+@font-face{
+    font-family: Rock;
+    src: url("./Fonts/rock.otf");
+}
+
+.body{
+    background-color: #0077B6;
+    background: linear-gradient(
+        50deg,
+        #0077B6 (41, 89, 183, 0.848),
+        #0077B6(41, 89, 183, 0.848)
+    ),
+    url(Imagenes/Diseño\ sin\ título.jpg);
+    background-position: center;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    left: -320px;
+    transition: all ease-in-out 300ms;
+}
+
+.sidebar {
+    width: 320px;
+    height: 100%;
+    background: #393d41;
+    overflow: auto;
+    float: left;
+
+}
+
+.sidebar img {
+    width: 140px;
+    display: block;
+    margin: 10px auto;
+    opacity: .7;
+}
+
+.side-hide {
+    float: right;
+    margin: 12px;
+    color: #0077B6;
+    opacity: .7;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.sidebar ul li {
+    list-style: none;
+    padding: 20px 18px;
+
+}
+
+.sidebar ul li:hover {
+    background: white;
+    cursor: pointer;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.742);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.925);
+    font-size: 23px;
+    font-family: Rock;
+}
+
+.content {
+    padding: 20px;
+    font-size: 16px;
+    font-family: sans-serif;
+    margin-left: 310px;
+    background-color: #0077B6;
+}
+
+.content h2 {
+    font-size: 170px;
+    color: rgba(0, 0, 0, 0.742);
+    text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.925);
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    font-family: Rocket;
+    
+}
+
+.content p {
+    text-align: justify;
+    font-size: 40px;
+    margin-left: 100px;
+    font-family: Rock;
+    
+}
+
+button {
+    background:rgb(179, 180, 180);
+    color: #0077B6;
+    padding: 10px 20px;
+    border: none;
+    display: block;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.show {
+    left: 0;
+}
+
+
+
